@@ -23,7 +23,7 @@ namespace ContactTrackerApplication
     {
         public Startup(IConfiguration configuration)
         {
-            LogManager.LoadConfiguration(System.String.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
+            //LogManager.LoadConfiguration(System.String.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
             Configuration = configuration;
         }
 
